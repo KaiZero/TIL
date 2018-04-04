@@ -1,4 +1,4 @@
-RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x + 2, transform.position.y), attackDirection, BasicAttackDistance,1 << LayerMask.NameToLayer("Layer");
+RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), direction, distance, 1 << LayerMask.NameToLayer("Layer");
 
 레이어마스크는 별도의 할당된 순서가 있긴 하지만
 이게 유니티상에서는 비트의 위치를 뜻함
