@@ -7,6 +7,7 @@ CodeComplete와 MSDN 참조하여 제작
 GetDriveDeviceInfo
 =============
 WMI를 통해 Disk 정보 얻어오기
+ps. M.2(NVME)는 SCSI로 인터페이스가 획득되는 것을 확인
 
 GetDeviceNameFromLogical
 =============
